@@ -1,0 +1,11 @@
+query EmployeesData {
+    allEmployees {
+        id
+        firstName
+        lastName
+        subordinates {
+            firstName
+        }
+        __typename
+    }
+}

@@ -1,0 +1,6 @@
+query DepartmentData($id: ID!) {
+    department(id: $id) {
+        country
+        id
+    }
+}
